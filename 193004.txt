@@ -1,0 +1,30 @@
+https://github.com/martinpoposki27/SI_2021_lab1_193004.git
+
+4. 
+git config --global user.email "poposkimar@gmail.com"
+$ cd "C:\Users\popos\OneDrive\Documents\4semestar\SoftverskoInzenerstvo"
+$ git init
+$ git clone https://github.com/martinpoposki27/SI_2021_lab1_193004.git
+$ cd SI_2021_lab1_193004
+
+5.
+$ git add numbers.txt
+$ git commit -m "Add numbers from 1 to 5"
+
+6.
+$ git add numbers.txt
+$ git commit -m "Add numbers from 6 to 9"
+
+7.
+$ git add numbers.txt
+$ git commit -m "Add some words"
+
+9.
+git reset HEAD^
+
+11.
+git push
+
+
+
+
