@@ -58,5 +58,22 @@ git push
 
 22.
 git checkout main
+git rebase branch1
+
+23.
+git add numbers.txt
+git commit -m "Change 1 to 0 and add 100"
+
+24.
+git rebase branch2
+-Тука ми се појави конфликт, променав во фајлот numbers.txt го вратив на вредностите од 0 до 100.
+git add numbers.txt
+git rebase --continue
+-Тука требаше да одберам commit message или да напишам нова.
+
+25.
+git pull
+git push
+
 
 
