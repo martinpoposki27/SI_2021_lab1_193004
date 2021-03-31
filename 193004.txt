@@ -25,6 +25,38 @@ git reset HEAD^
 11.
 git push
 
+12.
+git branch branch1
+git branch branch2
 
+13.
+git checkout branch1
+
+14.
+git add words.txt
+git commit -m "Add 5 words"
+
+16.
+git add words.txt
+git commit --amend -m "Add 6 words"
+
+18.
+git pull
+git push --set-upstream origin branch1
+git push --set-upstream origin branch2
+
+19.
+git checkout branch2
+
+20.
+git add numbers.txt
+git commit -m "Add numbers from 10-15"
+
+21.
+git pull
+git push
+
+22.
+git checkout main
 
 
